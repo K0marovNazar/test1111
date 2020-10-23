@@ -1,0 +1,51 @@
+body  {
+	background-color: #1d84f2; 
+}
+
+tbody {
+	position: absolute;
+	text-align: center;
+	width: 19%;
+	margin-left: 36%;
+	margin-top: 5%; 
+	background-color: red;
+	padding-top: 50px;
+}
+button {
+	padding: 10px;
+	font-size: 33px;
+	margin: 7px;
+}
+
+button:hover {
+	background-color: green;
+
+}
+
+.sum {
+	position: absolute;
+	text-align: center;
+	width: 17%;
+	margin-left: 37.2%; 
+	background-color: #64ff2b;
+	margin-top: 5.5%;
+	font-size: 33px; 
+}
+
+.pulse {
+	animation-name: pulse;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: rotate(-25deg);
+	}
+	50% {
+		transform: rotate(25deg);
+	}
+	100% {
+		transform: rotate(-25deg);
+	}
+}
